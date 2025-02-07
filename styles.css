@@ -1,2 +1,18 @@
 
 /* Your CSS Code here. */
+.holder {
+  display: flex;
+  flex-wrap: wrap; /* Ensures items move to the next row if needed */
+  justify-content: space-between; /* Spaces items evenly with first and last touching the edges */
+  gap: 10px; /* Adds space between items */
+  padding: 10px; /* Adds some padding around */
+}
+
+.item {
+  flex: 1; /* Ensures items take equal space */
+  min-width: 150px; /* Prevents items from getting too small */
+  background-color: lightblue;
+  text-align: center;
+  padding: 20px;
+  border: 1px solid #000;
+}
